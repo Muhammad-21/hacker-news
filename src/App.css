@@ -1,0 +1,49 @@
+@import '~antd/dist/antd.css';
+
+.logo {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.news{
+  padding: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.news:hover{
+  background: #001529;
+  color: white;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.info{
+  font-size: 14px; 
+  display: flex; 
+  margin-left: 10px;
+  opacity: 0.5;
+  justify-content: space-between;
+}
+
+.update {
+  margin-left:10%;
+  font-size:20px;
+  margin-top:80px;
+  color:#001529;
+  background: white;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.update:hover{
+  background: #001529;
+  color:white;
+}
