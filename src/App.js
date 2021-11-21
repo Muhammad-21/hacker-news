@@ -1,4 +1,4 @@
-import { Layout } from 'antd';
+// import { Layout } from 'antd';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -8,9 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar/>
-      <Layout.Content>
-        <News />
-      </Layout.Content>
+      <News />
     </BrowserRouter>
   );
 }
