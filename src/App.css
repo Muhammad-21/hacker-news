@@ -1,10 +1,5 @@
 @import '~antd/dist/antd.css';
 
-.logo {
-  color: white;
-  font-size: 25px;
-  cursor: pointer;
-}
 
 .news{
   padding: 25px;
