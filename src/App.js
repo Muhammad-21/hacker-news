@@ -3,14 +3,15 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import store from './store/store';
-import MainPage from './components/MainPage/MainPage';
+import AppRouter from './components/AppRouter';
+// import MainPage from '../src/components/MainPage/MainPage'
 
 function App() {
   return (
     <BrowserRouter>
     <Provider store={store}>
       <Navbar/>
-      <MainPage/>
+      <AppRouter/>
     </Provider>
     </BrowserRouter>
   );

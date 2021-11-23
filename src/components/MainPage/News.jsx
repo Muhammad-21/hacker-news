@@ -32,6 +32,7 @@ export default function News({news, getNewsIds}) {
         return () => { 
             window.removeEventListener('scroll', handleScroll);
         }
+    // eslint-disable-next-line
     },[])
 
     return (

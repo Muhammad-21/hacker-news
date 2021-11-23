@@ -1,0 +1,23 @@
+
+.kid {
+	margin-left: 10%;
+	padding: 2%;
+	font-size: 12px;
+	background-color: rgb(250, 249, 249);
+	border-radius: 5px;
+}
+
+.btn{
+    display: inline;
+}
+.btn__more {
+	display: inline;
+	color: #ffc107;
+	cursor: pointer;
+	border: 0;
+	transition: color .15s ease-in-out;
+}
+
+.btn__more:hover {
+	color: #8b6e14;
+}

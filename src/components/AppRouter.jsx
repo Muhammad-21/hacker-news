@@ -6,7 +6,7 @@ export default function AppRouter() {
     return (
         <Switch>
            {routes.map(route => 
-                <Route path={route.path} component={route.component} exact={route.exact}/>
+                <Route key={route.path} path={route.path} component={route.component} exact={route.exact}/>
             )}
             <Redirect to="/"/>
         </Switch>

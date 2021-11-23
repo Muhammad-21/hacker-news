@@ -11,4 +11,14 @@ export default class NewsService {
         return response.data;
     }
 
+    static async getComment (commentId) {
+		const response = await axios.get(`${path}/item/${commentId}.json`)
+		return response.data;
+	}
+
+	static async getKidsComment (kidId) {
+		const response = await axios.get(`${path}/item/${kidId}.json`)
+		return response.data;
+	}
+
 }

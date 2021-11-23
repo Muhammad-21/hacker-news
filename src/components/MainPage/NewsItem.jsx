@@ -1,10 +1,12 @@
 import React from 'react'
 import {ClockCircleOutlined, CommentOutlined, StarOutlined, UserOutlined} from '@ant-design/icons';
 import moment from 'moment';
+import { useHistory } from 'react-router-dom';
 export default function NewsItem({news}) {
     const date = moment.unix(news.time);
+    const router = useHistory();
     return (
-        <div className="news">
+        <div className="news" onClick={() => router.push(`/news/${news.id}`)}>
             <div className="title">
                 <strong>{news.title}</strong>
             </div>
