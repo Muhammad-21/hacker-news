@@ -5,9 +5,9 @@ Interface for Hacker News website
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 -React  
 -React Router  
--React Redux
--Ant Design && React-Bootstrap
--Yarn Package manager  
+-React Redux  
+-Ant Design && React-Bootstrap  
+-Yarn Package manager    
 
 ## Api
 Official [Hacker News API](https://github.com/HackerNews/API)  
