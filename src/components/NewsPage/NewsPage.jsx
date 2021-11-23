@@ -15,7 +15,7 @@ export default function NewsPage({ newsProfile, comments, kids,
 					commentsCount={commentsCount}/>
             <div>
                 <h2><strong>Comments</strong></h2>
-                <button className="update" onClick={() => updateComments()}><SyncOutlined/><strong> update</strong></button>
+                <button className="update" onClick={() => updateComments(newsProfile.kids)}><SyncOutlined/><strong> update</strong></button>
                 <div style={{marginTop:"30px"}}>
                 {comments.length
 				? <Comments comments={comments} 
