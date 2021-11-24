@@ -1,5 +1,7 @@
 @import '~antd/dist/antd.css';
-
+html {
+  scroll-behavior: smooth;
+}
 
 .news{
   padding: 25px;

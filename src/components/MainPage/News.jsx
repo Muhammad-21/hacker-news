@@ -38,7 +38,6 @@ export default function News({news, getNewsIds}) {
     return (
             <Layout.Content>
                 <Update onClick={getNewsIds}/>
-                <div>{scroll}</div>
                 <Back isScroll={scroll} goBack={goBack}/>
                 {news.map(item => <NewsItem news={item} key={item.id} />)}
             </Layout.Content>

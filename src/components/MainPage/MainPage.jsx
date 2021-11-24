@@ -10,9 +10,9 @@ class MainPage extends React.Component {
 	}
 	render() {
 		return (
-			this.props.news.length !== 100
-				? <Loader/>
-				: <News {...this.props}/> 
+			this.props.news.length !== 100  
+				? <Loader/> 
+				: <News {...this.props}/>  
 		)
 	}
 }
